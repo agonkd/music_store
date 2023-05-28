@@ -4,9 +4,9 @@ import { BsArrowRight } from 'react-icons/bs'
 function Blog() {
   return (
     <section id='blog-posts-wrapper' className='sm:px-10 px-8 py-16 my-16 space-y-8' >
-      <div className='flex justify-between items-center'>
+      <div className='flex sm:flex-row flex-col justify-between sm:items-center gap-6'>
         <h2 className='text-2xl font-semibold uppercase'>Blog</h2>
-        <ul className='flex items-center sm:gap-10 gap-8 text-gray-500'>
+        <ul className='flex items-center sm:justify-start justify-between sm:gap-10 text-gray-500'>
           <li className='text-black font-semibold underline'><a href="">All</a></li>
           <li><a href="">News</a></li>
           <li><a href="">Discounts</a></li>

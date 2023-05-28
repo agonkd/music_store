@@ -1,6 +1,6 @@
 function ProductCard() {
   return (
-    <a href='#product-name' className='relative flex-shrink-0 w-72 border rounded-lg hover:shadow-lg transition'>
+    <a href='/product' className='relative flex-shrink-0 w-72 border rounded-lg hover:shadow-lg transition'>
       <ul className='absolute top-4 left-4 flex flex-col gap-2'>
         <li className='w-fit rounded py-1 px-2 text-xs bg-[#E5505A] text-white'>Sale 10:30:35</li>
         <li className='w-fit rounded py-1 px-2 text-xs bg-[#E5505A] text-white'>-17& OFF</li>
