@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#footer-content-list > ul:first-of-type {
+  padding-left: 0;
+}
+
+#footer-content-list > ul:last-of-type {
+  padding-right: 0;
+}
+
+#footer-content-list > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+input[type="radio"] {
+  accent-color: black;
+}
